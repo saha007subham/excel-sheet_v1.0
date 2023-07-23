@@ -9,12 +9,40 @@ body{
 
 .page-actions-cont{
     height: 3rem;
-    background-color: green;
+    background-color: #218c74;
+    display: flex;
+    align-items: flex-end;
+}
+
+.page-action{
+    margin: 0.5rem;
+    color: #f1f2f6;
 }
 
 .cellprop-actions-cont{
     height: 3rem;
     background-color: orange;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.cellprop-actions-cont > * {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.font-family-prop{
+    padding: 0.2rem;
+}
+
+.font-size-prop{
+    padding: 0.2rem;
+}
+
+.cellprop-actions-cont > select {
+    border: none;
+    outline: none;
 }
 
 .formula-actions-cont{
@@ -23,10 +51,17 @@ body{
 }
 
 .sheet-actions-cont{
-    height: 3rem;
+    height: 2rem;
     background-color: blue;
    
 }
 .grid-cont{
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 3rem - 3rem - 3rem - 2rem);
+}
+
+.sheets-folder-cont{
+    height: 1rem;
+    background-color: yellow;
+    display: inline-block;
+    width: 5rem;
 }
