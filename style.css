@@ -107,6 +107,8 @@ body{
 .grid-cont{
     height: calc(100vh - 3rem - 3rem - 3rem - 3rem);
     position: relative;
+    overflow: scroll;
+    background-color: #ecf0f1;
 }
 
 .top-left-dummy-box{
@@ -118,19 +120,39 @@ body{
 .address-col-cont{
     height: 10rem;
     width: 2rem;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .address-row-cont{
     height: 2rem;
-    background-color: lightpink;
+    display: flex;
+    /* background-color: lightpink; */
 }
 
 .cells-cont{
     position: absolute;
     top: 0;
     left: 2rem;
-    background-color: lightgreen;
-    width: 10rem;
-    height: 10rem;
+    /* background-color: lightgreen; */
+    /* width: 10rem;
+    height: 10rem; */
+}
+
+.address-col{
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    border: 1px solid #dfe4ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-row{
+    height: 2rem;
+    width: 5rem;
+    border: 1px solid #dfe4ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
